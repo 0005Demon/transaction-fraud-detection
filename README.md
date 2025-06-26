@@ -29,8 +29,8 @@ This project identifies fraudulent invoices using machine learning. It extracts 
 ```
 
 transaction-fraud-detection/
-├── Backend-Folder/           # Flask API & ML model
-├── Frontend-Folder/          # React frontend
+├── BackendFolder/           # Flask API & ML model
+├── FrontendFolder/src/         # React frontend
 ├── Data/              # Raw or processed transaction data
 ├── requirements.txt   # Python dependencies
 ├── README.md
@@ -43,7 +43,7 @@ transaction-fraud-detection/
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/your-username/invoice-fraud-detection.git
+git clone https://github.com/0005Demon/invoice-fraud-detection.git
 cd transaction-fraud-detection
 
 # 2. Backend setup
@@ -51,10 +51,10 @@ python -m venv venv
 venv\Scripts\activate         # Windows
 # source venv/bin/activate    # Mac/Linux
 pip install -r requirements.txt
-python Backend-Folder/app.py
+python BackendFolder/app.py
 
 # 3. Frontend setup
-cd Frontend-Folder
+cd FrontendFolder/src
 npm install
 npm start
 ````
@@ -65,5 +65,5 @@ npm start
 ## 🙋‍♂️ Author
 
 **Jayesh**
-[GitHub](https://github.com/your-0005Demon)
+[GitHub](https://github.com/0005Demon)
 
