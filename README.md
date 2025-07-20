@@ -1,6 +1,6 @@
 # transaction-fraud-detection
 
-This project identifies fraudulent invoices using machine learning. It extracts invoice data via Azure Form Recognizer, preprocesses it, and predicts fraud using trained models. A Flask API serves predictions, and a React frontend allows user interaction.
+This project identifies fraudulent invoices using machine learning. It extracts transaction data via Azure Form Recognizer, preprocesses it, and predicts fraud using trained models. A Flask API serves predictions, and a React frontend allows user interaction.
 
 ---
 
